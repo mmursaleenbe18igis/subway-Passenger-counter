@@ -1,0 +1,26 @@
+@media screen and (width < 778px) {
+    .nav{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header nav ul{
+        height: 10vh;
+        width: 100vw;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header nav ul li{
+        padding: 3px 3px;
+    }
+
+
+
+    header{
+        height: 115px;
+    }
+}

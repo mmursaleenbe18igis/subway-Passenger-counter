@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 6vh;
+    width: 100vw;
+    display: inline-flex;
+    background-color: gray;
+    align-items: center;
+}
+
+header nav ul{
+
+}
+
+header nav ul li{
+     display: inline-flex;
+    list-style: none;
+    padding: 0 5vw;
+}
+
+
+header nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul .search{
+    display: inline;
+    cursor: pointer;
+    }    
+
+header nav ul .search input{
+    height: 22px;
+    border-radius: 4px;
+    margin: 0 0 0 100px;
+}
+
+main{
+    height: 80vh;
+    width: 100vw;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.container{
+    height: 450px;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px 0 0 0;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.container .counter{
+    display: inline-flex;
+    margin: 15vh 0 0 0;
+}
+
+.container #increment{
+    height: 25px;
+    width: 70px;
+    display: block;
+    margin: 3vh 0 ;
+    border-radius: 3px;
+    background-color: red;
+    cursor: pointer;
+}
+.container #save{
+    height: 25px;
+    width: 70px;
+    display: block;
+    border-radius: 3px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.container #clear{
+    height: 25px;
+    width: 70px;
+    margin: 10px 0;
+    display: block;
+    border-radius: 3px;
+    background-color: yellow;
+    cursor: pointer;
+}
